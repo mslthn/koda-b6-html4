@@ -135,6 +135,44 @@ header{
     height: 40px;
     border-radius: 10px;
 }
+.medsos{
+    background-color: #614D40;
+}
+.galery{
+    background-color: #EFD9C3;
+}
+
+.medsos{
+    height: 105px;
+}
+.medsosContainer{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+}
+.instagram{
+    display: flex;
+}
+
+.tiktok{
+    display: flex;
+}
+
+.sosmedCaption{
+    margin-left: 10px;
+}
+
+.iconSosmed{
+    width: 30px;
+}
+.galery{
+
+}
+.listFoto{
+    display: flex;
+    list-style-type: none;
+}
 
 /* .navbar {
   position: fixed;
