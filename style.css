@@ -5,11 +5,12 @@
 }
 header{
     width: 100%;
-    height: 400px;
+    height: 4   00px;
     background-color: #efd9c3;
 }
 .navbar{
-    height: 50px;
+    z-index: 3;
+    height: 60px;
     width: 100%;
     background-color: #efd9c3;
     position: fixed;
@@ -17,17 +18,17 @@ header{
 .navbar>.nav{
     float: right;
     margin-top: 5px;
-    margin-right: 50px;
+    margin-right: 10%;
 }
 .navbar>.nav>.navlist{
     list-style-type: none;
-    display: flex;
 }
 
 .navbar>.nav>.navlist>li{
+    display: inline-block;
     margin: 5px;
     padding: 10px;
-    color: white;
+    color: #252324;
 }
 
 .orderOnline{
@@ -45,28 +46,29 @@ header{
     width: 70px;
     margin: 5px;
 }
-/* HEADER */
-.header{
+
+.headerContent{
+    position: relative;
+    padding: 50px;
+}
+.judulH1{
+    font-size: 50px;
     
 }
-.headerContent{
-    /* width: 100%;
-    border: 2px solid; */
-
-    top: 80px;
-    position: static;
-    display: flex;
-    padding: 80px;
-}
 .caption{
-    /* border: 2px solid; */
+    width: 550px;
+    margin-top: 10%;
+    margin-left: 10%;
     text-align: left;
+    display: inline-block;
 }
 .caption>.orderFind{
-    margin: 20px;
     list-style-type: none;
-    display: flex;
-    gap: 15px;
+    display: inline-block;
+}
+.orderFind li{
+    display: inline-block;
+    margin-top: 20px;
 }
 .caption>.orderFind>.order{
     color: white;
@@ -85,10 +87,16 @@ header{
     width: 150px;
     height: 45px;
 }
-
+.bagianKopi{
+    right: 100px;
+    top: 100px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+}
 .gambarKopi{
-    width: 450px;
-    
+    top: 0;
+    width: 500px;
 }
 .waku{
     position: fixed;
@@ -100,24 +108,33 @@ header{
 .handmade{
     background-color: #252324;
     padding: 100px;
-}
-.handmadeCaption{
-    margin-left: 20px;
-}
-.handmadeCaption p{
-    margin: 5px;
+    display: inline-block;
+    width: 100%;
 }
 
-.ourStory{
-    display: flex;
-
-    color: #EFD9C3;
-}
 .ourMenu{
-    display: flex;
-
-    margin-top: 30px;
+    background-color:#614D40;
+    width: 100%;
+    padding: 50px;
     color: #EFD9C3;
+    margin-right: 50px;
+}
+.ourMenuCaption{
+    vertical-align: top;
+    padding-top: 60px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.ourMenuCaption p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ourMenuImg{
+    display: inline-block;
+    margin-left: 10%;
+}
+.imgMenu{
+    border-radius: 10px;
 }
 .viewourmenu{
     border: 2px solid #EFD9C3;
@@ -125,6 +142,32 @@ header{
     align-content: center;
     width: 150px;
     height: 40px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+.ourStory{
+    background-color:#614D40;
+    width: 100%;
+    padding: 50px;
+    color: #EFD9C3;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.ourStoryCaption{
+    vertical-align: top;
+    padding-top: 60px;
+    margin-right: 25px;
+    margin-left: 120px;
+    display: inline-block;
+}
+.ourStoryCaption p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.gambarLearn{
+    display: inline-block;
+}
+.imgLearn{
     border-radius: 10px;
 }
 .learnmore{
@@ -134,29 +177,29 @@ header{
     width: 150px;
     height: 40px;
     border-radius: 10px;
+    margin-top: 8px;
 }
 .medsos{
     background-color: #614D40;
-}
-.galery{
-    background-color: #EFD9C3;
+    width: 100%;
+    height: 130px;
 }
 
-.medsos{
-    height: 105px;
-}
 .medsosContainer{
-    display: flex;
+    /* display: flex; */
+    border: 2px solid;
+    
     justify-content: center;
-    gap: 25px;
     padding: 30px;
+    display: inline-block;
+    right: 50%;
 }
 .instagram{
-    display: flex;
 }
 
 .tiktok{
-    display: flex;
+    border: 2px solid black;
+    display: inline;
 }
 
 .sosmedCaption{
@@ -166,11 +209,13 @@ header{
 .iconSosmed{
     width: 30px;
 }
-.galery{
 
+.galery{
+    background-color: #EFD9C3;
 }
+
 .listFoto{
-    display: flex;
+    /* display: flex; */
     list-style-type: none;
 }
 
