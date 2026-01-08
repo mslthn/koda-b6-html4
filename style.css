@@ -45,13 +45,21 @@ header{
     width: 70px;
     margin: 5px;
 }
-
+/* HEADER */
+.header{
+    
+}
 .headerContent{
+    /* width: 100%;
+    border: 2px solid; */
+
+    top: 80px;
     position: static;
     display: flex;
     padding: 80px;
 }
 .caption{
+    /* border: 2px solid; */
     text-align: left;
 }
 .caption>.orderFind{
@@ -87,6 +95,45 @@ header{
     right: 3%;
     bottom: 3%;
     z-index: 5;
+}
+/* SECTION HANDMADE */
+.handmade{
+    background-color: #252324;
+    padding: 100px;
+}
+.handmadeCaption{
+    margin-left: 20px;
+}
+.handmadeCaption p{
+    margin: 5px;
+}
+
+.ourStory{
+    display: flex;
+
+    color: #EFD9C3;
+}
+.ourMenu{
+    display: flex;
+
+    margin-top: 30px;
+    color: #EFD9C3;
+}
+.viewourmenu{
+    border: 2px solid #EFD9C3;
+    text-align: center;
+    align-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.learnmore{
+    border: 2px solid #EFD9C3;
+    text-align: center;
+    align-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 /* .navbar {
