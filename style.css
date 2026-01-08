@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(241, 191, 130);
+    position: fixed;
+}
+.navbar>.nav{
+    float: right;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+.navbar>.nav>.navlist{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar>.nav>.navlist>li{
+    margin: 5px 10px;
+    color: white;
+}
+
+.orderOnline{
+    background-color: rgb(124, 62, 21);
+
+}
+
+.logo{
+    float: left;
+    margin-top: 5px;
+    margin-left: 10%;
+}
+.logoImg{
+    width: 60px;
+    
+}
+
+div.headerContent{
+    position: static;
+    padding: 55px;
+}
+
+
+/* .navbar {
+  position: fixed;
+  
+  top: 0;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(255, 218, 183);
+  z-index: 10;
+  display: flex;
+}
+.logoImg{
+    width: 60px;
+    margin-top: 8px;
+    margin-left: 100%;
+}
+.navbar>.nav{
+    
+    position: relative;
+    margin-top: 10px;
+    right: 0;
+}
+.navbar>.nav>.navlist{
+    display: flex;
+}
+.navbar>.nav>.navlist>li{
+    list-style-type: none;
+    float: left;
+    margin: 0 8px;
+    padding: 5px;
+}
+.orderOnline{
+    background-color: rgb(128, 33, 33);
+    border: 2px solid rgb(128, 33, 33) ;
+    border-radius: 10%;
+    padding: 5px 10px;
+    color: white;
+}
+
+.headerContent{
+    position: absolute;
+    top: 50px;
+    margin: 50px;
+}
+
+
+
+.headerContent {
+  margin-top: 20px;
+
+} */
