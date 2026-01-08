@@ -80,8 +80,14 @@ header{
 
 .gambarKopi{
     width: 450px;
+    
 }
-
+.waku{
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    z-index: 5;
+}
 
 /* .navbar {
   position: fixed;
